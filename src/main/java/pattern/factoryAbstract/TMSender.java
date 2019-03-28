@@ -7,6 +7,7 @@ import pattern.factory.Sender;
  */
 public class TMSender implements Sender {
 
+    @Override
     public void send() {
         System.out.println("send TM ...");
     }

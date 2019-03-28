@@ -7,6 +7,7 @@ import pattern.factory.Sender;
  */
 public class TMFactory implements Provider {
 
+    @Override
     public Sender produce() {
         return new TMSender();
     }

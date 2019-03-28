@@ -8,6 +8,7 @@ import pattern.factory.WBSender;
  */
 public class WBFactory implements Provider {
 
+    @Override
     public Sender produce() {
         return new WBSender();
     }

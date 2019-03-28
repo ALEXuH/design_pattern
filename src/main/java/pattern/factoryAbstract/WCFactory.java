@@ -8,6 +8,7 @@ import pattern.factory.WCSender;
  */
 public class WCFactory implements Provider {
 
+    @Override
     public Sender produce() {
         return new WCSender();
     }

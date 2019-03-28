@@ -5,6 +5,7 @@ package pattern.factory;
  */
 public class WCSender implements Sender{
 
+    @Override
     public void send() {
       System.out.println("WC Sender ...");
     }
