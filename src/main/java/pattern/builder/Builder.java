@@ -1,31 +1,14 @@
 package pattern.builder;
 
-import pattern.factory.Sender;
-import pattern.factory.WBSender;
-import pattern.factory.WCSender;
-
-import java.util.ArrayList;
-import java.util.List;
-
 /**
- * Created by ALEXuH on 2018/12/24
- * 建造者模式：创建复合对象,工厂关注当个对象
+ * Created by ALEXuH on 2019/3/29
  */
-public class Builder {
+public interface Builder {
+    void setType(Type type);
+    void setSeats(int seats);
+    void setEngine(Engine engine);
+    void setTransmission(Transimission transimission);
+    void setTripComputer(TripComputer tripComputer);
+    void setGPSNavigator(GPSNavigator gpsNavigator);
 
-    List<Sender> list = new ArrayList<Sender>();
-
-    public List<Sender> producerWB(Integer count) {
-        for (int i = 0; i < count; i++) {
-            list.add(new WBSender());
-        }
-        return list;
-    }
-
-    public List<Sender> producerWC(Integer count) {
-        for (int i = 0; i < count; i++) {
-            list.add(new WCSender());
-        }
-        return list;
-    }
 }
