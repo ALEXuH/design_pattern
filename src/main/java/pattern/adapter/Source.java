@@ -1,11 +1,9 @@
 package pattern.adapter;
 
-/**
- * Created by ALEXuH on 2018/12/25
- */
+/** Created by ALEXuH on 2018/12/25 */
 public class Source {
 
-    public void sayHello() {
-        System.out.println("I am source: Hello");
-    }
+  public void sayHello() {
+    System.out.println("I am source: Hello");
+  }
 }

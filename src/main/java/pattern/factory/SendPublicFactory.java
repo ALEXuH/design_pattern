@@ -1,15 +1,13 @@
 package pattern.factory;
 
-/**
- * Created by ALEXuH on 2019/3/28
- */
+/** Created by ALEXuH on 2019/3/28 */
 public class SendPublicFactory {
 
-    public Sender producerWB() {
-        return new WBSender();
-    }
+  public Sender producerWB() {
+    return new WBSender();
+  }
 
-    public Sender producerWC() {
-        return new WCSender();
-    }
+  public Sender producerWC() {
+    return new WCSender();
+  }
 }

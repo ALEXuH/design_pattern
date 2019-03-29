@@ -1,8 +1,9 @@
 package pattern.builder;
 
-/**
- * Created by ALEXuH on 2019/3/29
- */
+/** Created by ALEXuH on 2019/3/29 */
 public enum Transimission {
-    SINGLE_SPEED,MANUAL,AUTOMIC,SEMI_AUTOMIC
+  SINGLE_SPEED,
+  MANUAL,
+  AUTOMIC,
+  SEMI_AUTOMIC
 }

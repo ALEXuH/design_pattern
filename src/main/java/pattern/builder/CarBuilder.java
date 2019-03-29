@@ -41,6 +41,12 @@ public class CarBuilder implements Builder {
   }
 
   public Car getResult() {
-      return new Car(this.type, this.seats, this.engine, this.transimission, this.tripComputer, this.gpsNavigator);
+    return new Car(
+        this.type,
+        this.seats,
+        this.engine,
+        this.transimission,
+        this.tripComputer,
+        this.gpsNavigator);
   }
 }

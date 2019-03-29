@@ -1,7 +1,4 @@
 package pattern.builder;
 
-/**
- * Created by ALEXuH on 2019/3/29
- */
-public class GPSNavigator {
-}
+/** Created by ALEXuH on 2019/3/29 */
+public class GPSNavigator {}

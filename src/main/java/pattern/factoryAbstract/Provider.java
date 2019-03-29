@@ -2,11 +2,8 @@ package pattern.factoryAbstract;
 
 import pattern.factory.Sender;
 
-/**
- * Created by ALEXuH on 2018/12/24
- * 对普通工厂类的提升，提高了图拓展性，当需要添加新的产品只需要添加一个实现类和一个工厂类
- */
+/** Created by ALEXuH on 2018/12/24 对普通工厂类的提升，提高了图拓展性，当需要添加新的产品只需要添加一个实现类和一个工厂类 */
 public interface Provider {
 
-    public Sender produce();
+  public Sender produce();
 }

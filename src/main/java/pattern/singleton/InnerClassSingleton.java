@@ -1,17 +1,15 @@
 package pattern.singleton;
 
-/**
- * Created by ALEXuH on 2019/3/28
- */
+/** Created by ALEXuH on 2019/3/28 */
 public class InnerClassSingleton {
 
-    private InnerClassSingleton(){}
+  private InnerClassSingleton() {}
 
-    private static class InnerInstance{
-        private static InnerClassSingleton instance = new InnerClassSingleton();
-    }
+  private static class InnerInstance {
+    private static InnerClassSingleton instance = new InnerClassSingleton();
+  }
 
-    public static InnerClassSingleton getInstance() {
-        return InnerInstance.instance;
-    }
+  public static InnerClassSingleton getInstance() {
+    return InnerInstance.instance;
+  }
 }

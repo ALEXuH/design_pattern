@@ -1,11 +1,9 @@
 package pattern.proxy;
 
-/**
- * Created by ALEXuH on 2018/12/25
- */
+/** Created by ALEXuH on 2018/12/25 */
 public interface Source {
 
-    void method1();
+  void method1();
 
-    void method2();
+  void method2();
 }

@@ -2,13 +2,11 @@ package pattern.factoryAbstract;
 
 import pattern.factory.Sender;
 
-/**
- * Created by ALEXuH on 2018/12/24
- */
+/** Created by ALEXuH on 2018/12/24 */
 public class TMFactory implements Provider {
 
-    @Override
-    public Sender produce() {
-        return new TMSender();
-    }
+  @Override
+  public Sender produce() {
+    return new TMSender();
+  }
 }
