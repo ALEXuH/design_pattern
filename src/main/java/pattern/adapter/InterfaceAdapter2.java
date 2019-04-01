@@ -1,7 +1,7 @@
 package pattern.adapter;
 
 /** Created by ALEXuH on 2018/12/25 */
-public class Adapter2 extends Wrap {
+public class InterfaceAdapter2 extends InterfacceAdapter {
 
   @Override
   public void method1() {
