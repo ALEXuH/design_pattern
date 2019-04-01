@@ -9,12 +9,14 @@ public class Proxy implements Source {
     this.sor = new DataSource();
   }
 
+  @Override
   public void method1() {
     before();
     sor.method1();
     after();
   }
 
+  @Override
   public void method2() {
     throw new RuntimeException("do nor need implements");
   }
