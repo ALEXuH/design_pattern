@@ -1,7 +1,7 @@
-import pattern.factory.SendPublicFactory;
-import pattern.factory.Sender;
-import pattern.factory.SenderFactory;
-import pattern.factory.SenderStaticFactory;
+import pattern.creational.factory.SendPublicFactory;
+import pattern.creational.factory.Sender;
+import pattern.creational.factory.SenderFactory;
+import pattern.creational.factory.SenderStaticFactory;
 
 /** Created by ALEXuH on 2018/12/24 */
 public class FactoryTest {

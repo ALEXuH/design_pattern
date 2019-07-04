@@ -1,4 +1,4 @@
-import pattern.composite.Employee;
+import pattern.structural.composite.Employee;
 
 /** Created by ALEXuH on 2019/5/9 0009 */
 public class CompositeTest {

@@ -1,4 +1,4 @@
-import pattern.proxy.Proxy;
+import pattern.structural.proxy.Proxy;
 
 /** Created by ALEXuH on 2018/12/25 */
 public class ProxyTest {

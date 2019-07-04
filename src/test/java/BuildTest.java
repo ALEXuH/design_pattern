@@ -1,6 +1,6 @@
-import pattern.builder.Car;
-import pattern.builder.CarBuilder;
-import pattern.builder.Direct;
+import pattern.creational.builder.Car;
+import pattern.creational.builder.CarBuilder;
+import pattern.creational.builder.Direct;
 
 /** Created by ALEXuH on 2019/3/29 */
 public class BuildTest {

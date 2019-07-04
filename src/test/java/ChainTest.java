@@ -1,7 +1,7 @@
-import pattern.chainofresponsibility.AbstractLogger;
-import pattern.chainofresponsibility.ConsoleLogger;
-import pattern.chainofresponsibility.DebugLogger;
-import pattern.chainofresponsibility.ErrorLogger;
+import pattern.behavioral.chainofresponsibility.AbstractLogger;
+import pattern.behavioral.chainofresponsibility.ConsoleLogger;
+import pattern.behavioral.chainofresponsibility.DebugLogger;
+import pattern.behavioral.chainofresponsibility.ErrorLogger;
 
 /** Created by ALEXuH on 2019/5/10 0010 */
 public class ChainTest {

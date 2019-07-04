@@ -1,4 +1,4 @@
-import pattern.adapter.*;
+import pattern.structural.adapter.*;
 
 /** Created by ALEXuH on 2018/12/25 */
 public class AdapterTest {

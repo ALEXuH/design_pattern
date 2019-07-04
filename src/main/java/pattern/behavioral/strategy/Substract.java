@@ -1,0 +1,10 @@
+package pattern.behavioral.strategy;
+
+/** Created by ALEXuH on 2019/5/10 0010 */
+public class Substract extends Strategy {
+  @Override
+  public int execute(int num, int num2) {
+    setFlag("-");
+    return num - num2;
+  }
+}

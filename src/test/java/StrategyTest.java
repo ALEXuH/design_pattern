@@ -1,7 +1,7 @@
-import pattern.strategy.Add;
-import pattern.strategy.Context;
-import pattern.strategy.Multiply;
-import pattern.strategy.Substract;
+import pattern.behavioral.strategy.Add;
+import pattern.behavioral.strategy.Context;
+import pattern.behavioral.strategy.Multiply;
+import pattern.behavioral.strategy.Substract;
 
 /** Created by ALEXuH on 2019/5/10 0010 */
 public class StrategyTest {

@@ -1,4 +1,4 @@
-import pattern.filter.*;
+import pattern.behavioral.filter.*;
 
 import java.util.ArrayList;
 import java.util.List;

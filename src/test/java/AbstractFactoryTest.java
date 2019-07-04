@@ -1,7 +1,7 @@
-import pattern.factoryAbstract.Provider;
-import pattern.factoryAbstract.TMFactory;
-import pattern.factoryAbstract.WBFactory;
-import pattern.factoryAbstract.WCFactory;
+import pattern.creational.factoryAbstract.Provider;
+import pattern.creational.factoryAbstract.TMFactory;
+import pattern.creational.factoryAbstract.WBFactory;
+import pattern.creational.factoryAbstract.WCFactory;
 
 /** Created by ALEXuH on 2018/12/24 */
 public class AbstractFactoryTest {

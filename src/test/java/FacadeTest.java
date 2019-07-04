@@ -1,4 +1,4 @@
-import pattern.facade.Computer;
+import pattern.structural.facade.Computer;
 
 /** Created by ALEXuH on 2018/12/25 */
 public class FacadeTest {

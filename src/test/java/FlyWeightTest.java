@@ -1,6 +1,5 @@
-import pattern.flyweight.Circle;
-import pattern.flyweight.Shape;
-import pattern.flyweight.ShapeFactory;
+import pattern.structural.flyweight.Circle;
+import pattern.structural.flyweight.ShapeFactory;
 
 /** Created by ALEXuH on 2019/5/9 0009 */
 public class FlyWeightTest {

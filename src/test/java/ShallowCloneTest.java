@@ -1,5 +1,5 @@
-import pattern.Prototype.Circle;
-import pattern.Prototype.ShallowClone;
+import pattern.creational.Prototype.Circle;
+import pattern.creational.Prototype.ShallowClone;
 
 /** Created by ALEXuH on 2019/5/9 0009 */
 public class ShallowCloneTest {

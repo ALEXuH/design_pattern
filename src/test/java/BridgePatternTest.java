@@ -1,7 +1,7 @@
-import pattern.bridge.Circle;
-import pattern.bridge.GreenCircle;
-import pattern.bridge.RedCircle;
-import pattern.bridge.Shape;
+import pattern.structural.bridge.Circle;
+import pattern.structural.bridge.GreenCircle;
+import pattern.structural.bridge.RedCircle;
+import pattern.structural.bridge.Shape;
 
 /**
  * Created by ALEXuH on 2019/4/2
