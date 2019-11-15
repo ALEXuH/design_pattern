@@ -5,6 +5,7 @@ import java.util.List;
 
 /** Created by ALEXuH on 2018/12/26 */
 public class Filter2 implements Filter {
+  @Override
   public List<Person> filter(List<Person> list) {
     List<Person> list1 = new ArrayList<Person>();
     for (Person person : list) {

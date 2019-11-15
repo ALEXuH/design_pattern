@@ -10,10 +10,12 @@ public class Adapter1 implements Target {
     this.source = source;
   }
 
+  @Override
   public void sayHello() {
     source.sayHello();
   }
 
+  @Override
   public void sayThanks() {
     System.out.println(" sys thanks");
   }

@@ -9,10 +9,12 @@ public class DataSourceDecorator implements DataSource {
     this.wrap = dataSource;
   }
 
+  @Override
   public void writeData(String data) {
     wrap.writeData(data);
   }
 
+  @Override
   public String readData() {
     return wrap.readData();
   }

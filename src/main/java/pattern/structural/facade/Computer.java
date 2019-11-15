@@ -11,11 +11,13 @@ public class Computer implements Behavior {
     this.disk = new Disk();
   }
 
+  @Override
   public void start() {
     cpu.start();
     disk.start();
   }
 
+  @Override
   public void stop() {
     cpu.stop();
     disk.stop();

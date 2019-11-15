@@ -11,6 +11,7 @@ public class FileDataSource implements DataSource {
     this.fileName = fileName;
   }
 
+  @Override
   public void writeData(String data) {
     File file = new File(fileName);
     BufferedOutputStream out = null;
@@ -29,6 +30,7 @@ public class FileDataSource implements DataSource {
     }
   }
 
+  @Override
   public String readData() {
     char[] data = null;
     File file = new File(this.fileName);

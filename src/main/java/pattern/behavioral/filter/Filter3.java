@@ -13,6 +13,7 @@ public class Filter3 implements Filter {
     this.fi2 = fi2;
   }
 
+  @Override
   public List<Person> filter(List<Person> list) {
     return this.fi2.filter(this.fil.filter(list));
   }

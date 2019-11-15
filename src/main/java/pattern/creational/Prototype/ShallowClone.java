@@ -6,6 +6,7 @@ package pattern.creational.Prototype;
  */
 public class ShallowClone implements Cloneable {
 
+  @Override
   public ShallowClone clone() throws CloneNotSupportedException {
     System.out.println("start create new clone object");
     return (ShallowClone) super.clone();
